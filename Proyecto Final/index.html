@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Audilu </title>
+    <link rel="stylesheet" href=".\public\css\main.css">
+    <script src="./public/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" href=".\public\img\icono.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  </head>
+  <body> <!-- Empieza el header-->
+    <header>
+      <div class="container_header" id="inicio">
+        <div class="logo">
+          <a href="">
+            <img src=".\public\img\logo.png" alt="Logo de la marca">
+          </a>
+        </div>
+        <div class="menu">
+          <nav>
+            <ul> <!-- Barra de navegacion-->
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#acerca">Acerca</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#equipo">Equipo</a></li>                
+            </ul>
+          </nav>
+          <a href="https://linktr.ee/audilu" target="_blank" class="btn__quote">Contacto</a>
+        </div>
+      </div>
+    </header>
+    <main> <!-- Empieza el contenido-->
+      <div class="container_cover">  <!-- Portada-->
+        <div class="cover">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <section class="text_cover">
+                <h1> Cuide a sus hijos sin preocupaciones con Audilu</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam porro blanditiis ex autem odio,
+                   nostrum incidunt eius ullam qui laboriosam, nemo sed dolor eligendi unde haru
+                </p>
+                <a href="#" class="btn_text_cover
+                btn_text">Empezar </a>
+              </section>
+            </div>
+            
+            <div class="col-lg-6 col-sm-12">
+              <section class="img_cover">
+                <img src=".\public\img\cover.png" alt="">
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>    
+      <!-- Sobre nosotros-->      
+      <div class="container-about section_text" id="acerca">
+        <h2 class="titulo" data-aos="slide-up"> ACERCA DE </h2>
+        <div class="row" data-aos="slide-up">
+          <div class="col-sm-12 col-lg-6 mt-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam officiis iure debitis molestias accusantium.</p>
+            <img src=".\public\img\img.png" class="img img-fluid border-0 w-75 p-3" alt="..." data-aos="slide-up">
+          </div>
+          <div class="col-sm-12 col-lg-6 mt-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam officiis iure debitis molestias accusantium.</p>
+            <button type="button" class="btn btn-outline-primary mt-4" data-aos="slide-up">Conocer Más</button>                    
+          </div>
+        </div>
+      </div>
+      <!-- Como funciona-->
+      <div class="container__card-primary">
+        <div class="card__primary">
+          <div class="text__card-primary">
+            <p>QUEREMOS AYUDARTE</p>
+            <h2 class="titulo">¿Cómo Funciona?</h2>
+          </div>
+          <div class="container__box-cardPrimary">
+            <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="box__card-primary">
+                  <img src=".\public\img\bluetooth.png" alt="">
+                  <h2>Primer Paso</h2>
+                  <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exercitation</p>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <div class="box__card-primary">
+                  <img src=".\public\img\cuna-de-bebe.png" alt="">
+                  <h2>Segundo Paso</h2>
+                  <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exercitation</p>
+                </div>  
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <div class="box__card-primary">
+                  <img src=".\public\img\cuarto-del-bebe.png" alt="">
+                  <h2>Tercer Paso</h2>
+                  <p>Pore et dolore magna aliqua. Ut enim ad minim veniam, quis nos trud exercitation</p>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <!-- Servicios-->
+      <div class="container_galeria" id="servicios">
+        <h2 class="titulo" data-aos="slide-up"> Nuestros Servicios </h2>
+        <div class="row" data-aos="slide-up">
+          <div class="col-lg-4 col-sm-6">
+            <div class="imagen" onmouseover="mostrarTexto(this)" onmouseout="ocultarTexto(this)">
+              <img src=".\public\img\audilu2.jfif" alt="Imagen 1">
+              <div class="descripcion">Diseño 3d de la caja          </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="imagen" onmouseover="mostrarTexto(this)" onmouseout="ocultarTexto(this)">
+              <img src=".\public\img\audilu.jfif" alt="Imagen 1">
+              <div class="descripcion">Diseño 3d de la caja</div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="imagen" onmouseover="mostrarTexto(this)" onmouseout="ocultarTexto(this)">
+              <img src=".\public\img\cajita.jfif" alt="Imagen 1">
+              <div class="descripcion">Diseño 3d de la caja</div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="imagen" onmouseover="mostrarTexto(this)" onmouseout="ocultarTexto(this)">
+              <img src=".\public\img\audilu2.jfif" alt="Imagen 1">
+              <div class="descripcion">Diseño 3d de la caja</div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="imagen" onmouseover="mostrarTexto(this)" onmouseout="ocultarTexto(this)">
+              <img src=".\public\img\audilu.jfif" alt="Imagen 1">
+              <div class="descripcion">Diseño 3d de la caja</div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="imagen" onmouseover="mostrarTexto(this)" onmouseout="ocultarTexto(this)">
+              <img src=".\public\img\cajita.jfif" alt="Imagen 1">
+              <div class="descripcion">Diseño 3d de la caja</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Beneficios-->
+      <div class="container-beneficios ">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <section class="text_ben section_text" data-aos="slide-up">
+              <h2 class="car_text"> Los beneficios de nuestro dispositivo</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam porro blanditiis ex autem odio,
+                  nostrum incidunt eius ullam qui laboriosam, nemo sed dolor eligendi unde haru</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam porro blanditiis ex autem odio</p>
+            </section>
+          </div>
+
+          <div class="col-lg-6 col-sm-12" data-aos="slide-up"> <!-- Carrousel-->
+            <section id="carouselExampleIndicators" class="carousel slide" data-aos="slide-up">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src=".\public\img\slide2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src=".\public\img\slide3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src=".\public\img\slide4.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </section>    
+          </div>
+        </div>
+      </div>
+      <!-- Equipo-->      
+      <div class="container-team section_text" id="equipo">
+        <h2 class="titulo" data-aos="slide-up"> Nuestro Equipo </h2>
+        <p class="text" data-aos="slide-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quibusdam officiis iure debitis molestias accusantium.</p>
+        <div class="row" data-aos="slide-up">
+          <div class="col-lg-6 col-sm-12"><!--Cards-->
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 col-sm-4">
+                  <img src=".\public\img\profile2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Forever Rain</h5>
+                    <p class="card-text">Encargado de mediar las llamadas grupales de equipo</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 col-sm-4">
+                  <img src=".\public\img\profile2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Mya Alva</h5>
+                    <p class="card-text">Encargada del diseño de la cajita del dispositivo y la interfaz gráfica de la App.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 col-sm-4">
+                  <img src=".\public\img\profile2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Jorge Farias</h5>
+                    <p class="card-text">Encargado del desarrollo lógico de la aplicación. Frontend.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4 col-sm-4">
+                  <img src=".\public\img\profile2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Melanie Romero</h5>
+                    <p class="card-text">Encargada de la robótica del dispositivo. Programación con Arduino y el Backend de la App.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    </main>      <!-- Termina el contenido-->
+    <footer class="bg-dark text-white text-center py-3"> <!-- Footer-->
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Síguenos en redes sociales:</p>
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/audilu.project/" target="_blank" class="text-white">
+                  <img src=".\public\img\instagram.png">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/Audilu.project" target="_blank" class="text-white">
+                  <img src=".\public\img\facebook.png">
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.twitter.com" target="_blank" class="text-white">
+                  <img src=".\public\img\twitter.png">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+      
+    <!-- Incluye Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  </body>
+</html>
